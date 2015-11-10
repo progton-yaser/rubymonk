@@ -1,0 +1,23 @@
+Step1: Create an repository from github.com
+
+Step2: Follow the online instructions
+
+Step3: From the online instrucions open a folder where you are working 
+
+Step4: Initialize git reporsitory by commad "git init"
+
+# the above are only one time setup below can be followed routinely
+Step5: add the necesary files to git using this command "git add 'filename'" or if you want to add all simply 
+type this command "git add --all"
+
+Step6: NOw once you have added the default branch will be a master branch check which branch are you in?
+using this command "git status" this will show you details of reporsitory
+
+Step7: NOw once you are satisfied with the changes commit the changes using this command "git commit -am "message""
+the message is your message which can be anything like for eg: "initial commit" etc...
+
+Step8: now push the commit to the github using "git push origin master" here master is the branch name.
+
+Step9: check if your changes is highlighted in github.com
+
+Step10: Enjoy !!!!!!
