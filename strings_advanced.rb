@@ -6,4 +6,4 @@ puts "I should look into your problem when I get time".gsub('I','We')  # gsub co
 
 puts 'RubyMonk'.gsub(/[aeiou]/,'2')  # here in rubymonk the vowels that are present are interchanged by '2'!!
 
-puts 'Wonderla Is Pretty Good'.match(/ ./, 10)  # match command is used to point the position of the letter in the given sentence, it also considers the space in the given command line. eg:) In this given string 'p' is @ 10th position !! 
+puts 'Wonderla Is Pretty Gud'.match(/ ./, 10)  # match command is used to point the position of the letter in the given sentence, it also considers the space in the given command line. eg:) In this given string 'p' is @ 10th position !! 
