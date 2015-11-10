@@ -1,6 +1,6 @@
 class Rectangle
 	
-	# constructor in ruby 
+	# def method is a constructor in ruby 
 	# the initialize method will get called automatically 
 	# whenever we initilaize a class
 	def initialize(length, breadth)
