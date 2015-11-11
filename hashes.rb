@@ -14,3 +14,13 @@ restaurant_menu.each do | item, price |
   puts "#{item}: $#{price}"
 end
 # conclution: assigning values/price for an particular item!!
+
+
+def artax
+  a = [:punch, 0]
+  b = [:kick, 72]
+  c = [:stops_bullets_with_hands, false]
+  key_value_pairs = [a, b, c]
+  Hash[key_value_pairs]
+end
+puts artax
