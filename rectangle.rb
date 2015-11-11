@@ -17,12 +17,12 @@ class Rectangle
 end
 
 # store the class instance in a variable
-r = Rectangle.new(4,4) # initiaiize with arguments which wills et the values of length and breath
+r = Rectangle.new(4,4) # initiaiize with arguments which will set the values of length and breath
 
 r.perimeter # method calling
 
 puts "area"
-r.area # methid calling
+r.area # method calling
 
 
  
