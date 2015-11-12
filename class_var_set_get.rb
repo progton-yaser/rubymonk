@@ -17,7 +17,7 @@ class ApplicationConfiguration
 end
 
 ApplicationConfiguration.set("name", "Demo App")  # Method calling!!
-ApplicationConfiguration.set("version", "0.1")
+ApplicationConfiguration.set("version", "0.5")
 
 puts ApplicationConfiguration.get("version")
 
