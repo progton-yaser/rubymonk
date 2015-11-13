@@ -1,29 +1,29 @@
 class Animal
 	def move
-	puts "I can move"
+	 "I can"
 	end
 end
 
 class Tiger < Animal
 	def move
-	puts "I can roar on"
+	super + "roar on"
 	end
 end
 
 class Bird < Animal
 	def move
-    puts "I can fly"
+    super +  "fly"
 	end
 end
 
 class Penguin < Bird
 	def move
-	puts "I can swim"
+    super + "swim"
 	end
 end
 
 
-Animal.new.move
-Tiger.new.move
-Bird.new.move
+puts Animal.new.move
+puts Tiger.new.move
+puts Bird.new.move
 
