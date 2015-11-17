@@ -28,7 +28,25 @@ p [4, 8, 15, 16, 23, "42"].any? { |e| e.class == String }
 
 
 # 5:)-
+
 # In hash we can use these in two ways. Either with one argument that is a 2 element array of the key-value pair!! 
 # candidate[0] is the key and number is its value.!!
-p {:locke => 4, :hugo => 8}.any? { |candidate, number| number < 4 } 
+def hash_num
+   {:lucky => 4, :happie => 8}.any? { |candidate, number| number < 4 } 
+end
+
+puts hash_num
 # output = false.
+
+
+
+
+# 6:)-
+
+# | (pipe character) is the Union operator. It joins two arrays and returns the result with duplicates removed!!
+def solve_num
+   union_apple = ["a", "b", "a"] | ["c", "c"]
+end
+puts solve_num
+
+# output = "a", "b", "c"
