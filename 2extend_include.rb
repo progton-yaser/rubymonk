@@ -1,4 +1,4 @@
-# include program:)-
+# include program 1:)-
 module Forum
 # Here we'll discuss the included method!!
 # It is a callback that Ruby invokes whenever the module is included into another module/class!!
@@ -14,7 +14,7 @@ end
 
 
 
-# extend program:)-
+# extend program 2:)-
 module Forum
 # extend method works similar to include, but unlike include, you can use it to extend any object by including methods and constants from a module.!!
 	def self.extended(base)
